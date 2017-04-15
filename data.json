@@ -1,0 +1,20 @@
+[
+ {
+                "type": "Condo",
+                "price": 220000,
+                "address": "213 Groove Street",
+                "description": "Excellent place really nice view!"
+            },
+ {
+                "type": "House",
+                "price": 410500,
+                "address": "7823 Windi Way Street",
+                "description": "Beautiful Home lots of space for a large family!"
+            },
+ {
+                "type": "Duplex",
+                "price": 395000,
+                "address": "834 River lane",
+                "description": "Great neighbourhood and lot's of geren spce.!"
+            }
+]

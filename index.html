@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+    
+<body ng-controller = "storeController">
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+    <div class="well" ng-repeat = "place in places">
+    
+        <h3>{{place.address}}</h3>
+        <p><strong>Type:</strong>{{place.type}}</p>
+        <p><strong>Description:</strong>{{place.description}}</p>
+        <p><strong>Price:</strong>{{place.price | currency}}</p>
+    </div>
+    
+    
+  <!--  <pre>{{ places | json }}</pre>
+
+<p>
+    {{"hello" + " you"}}
+</p>
+    -->
+    </body>
+</html>    
