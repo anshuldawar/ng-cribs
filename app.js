@@ -7,6 +7,10 @@ var app = angular.module('store', []);
         placesFactory.getPlaces().then(function(response){
            $scope.places = response.data; 
         });
+        
+        $scope.sayHello = function(){
+            console.log("Hello");
+        }
     });
     
         app.factory('placesFactory', function($http){
@@ -19,6 +23,6 @@ var app = angular.module('store', []);
                 getPlaces: getPlaces
             }
         }); 
-
+    
 
     })();    
