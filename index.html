@@ -2,6 +2,7 @@
 <html ng-app="store">
 <head>
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">    
 </head>
     
 <body ng-controller = "storeController">
@@ -32,8 +33,8 @@
                     <p><strong>Price:</strong>{{place.price | currency}}</p>
                 </div>-->
                  <div ng-hide="showDetails === true">
-              <h3><i class="glyphicon glyphicon-tags"></i> {{place.price | currency}}</h3>
-              <h4><i class="glyphicon glyphicon-home"></i> {{place.address}} 
+              <h3><i class="fa fa-tag" aria-hidden="true"></i> {{place.price | currency}}</h3>
+              <h4><i class="fa fa-home" aria-hidden="true"></i> {{place.address}} 
                 <span class="label label-primary label-sm">{{place.type}}</span>
               </h4>
 
